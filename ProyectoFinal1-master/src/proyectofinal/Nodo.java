@@ -7,16 +7,14 @@ package proyectofinal;
 
 /**
  *
- * @author alehu
+ * @author VALERIA LARA TARIN
  */
-public class ProyectoFinal {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-       
+public class Nodo <T> {
+    T info;
+    Nodo sig;
+    
+    public Nodo(){
+        
     }
     
 }
